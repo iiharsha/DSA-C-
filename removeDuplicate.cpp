@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-  int removeDuplicate(vector<int> nums) {
+  int removeDuplicate(vector<int> &nums) {
     int l = 1;
     int n = nums.size();
 
