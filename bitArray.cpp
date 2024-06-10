@@ -14,7 +14,7 @@ int main() {
     arr[i] = arr[i] % v;
 
     if (arr[i] == arr[0] || arr[i] == arr[i - 1] && arr[i] != 0) {
-      count++;
+      count = i;
       break;
     }
   }
